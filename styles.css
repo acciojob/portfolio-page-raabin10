@@ -1,58 +1,42 @@
-/* Reset some default styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-/* Header styles */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #0077b6; /* You can change this color */
-    color: white;
-}
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
 
-header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
+        header h1 {
+            font-size: 2em;
+        }
 
-/* Name styles */
-h1 {
-    font-size: 2em;
-    margin: 10px 0;
-}
+        main {
+            padding: 20px;
+        }
 
-/* LinkedIn link styles */
-a {
-    text-decoration: none;
-    color: #ff9a8b; /* You can change this color */
-}
+        a {
+            text-decoration: none;
+            color: #ff9a8b;
+        }
 
-/* Skills and Projects section styles */
-section {
-    margin: 20px;
-}
+        section {
+            margin-bottom: 20px;
+        }
 
-h2 {
-    font-size: 1.5em;
-}
+        h2 {
+            font-size: 1.5em;
+        }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-li {
-    margin-bottom: 10px;
-}
-
-/* Optional: Footer styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0077b6; /* Match the header color */
-    color: white;
-}
+        li {
+            margin-bottom: 10px;
+        }
